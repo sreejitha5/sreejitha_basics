@@ -1,7 +1,10 @@
-package org.example;
+package main.java.com.basic.practice;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GreetingServiceFactory greetingServiceFactory = new GreetingServiceFactory();
+      GreetingService greetingService =  greetingServiceFactory.getGreetingServiceFactory("English");
+       greetingService.greet("sree");
     }
 }
+
