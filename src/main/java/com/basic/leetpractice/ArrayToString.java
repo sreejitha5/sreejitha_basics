@@ -11,10 +11,10 @@ public class ArrayToString {
     public static void main(String[] args) {
         //input string
         String[] a = {"a", "b", "c"};
-        //first method
+        //first method=stream
         String str = Arrays.stream(a).collect(Collectors.joining());
         System.out.println(str);
-        //second method
+        //second method=string buffer.
         List<String> sList = Arrays.asList(a);
         StringBuffer stringBuffer = new StringBuffer();
         for (String s : sList) {
