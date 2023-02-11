@@ -18,7 +18,7 @@ public class RemoveDuplicates {
 
             }
             else{
-                System.out.println(c);
+               System.out.println(c);
             }
         }
             System.out.println(builder.toString());
