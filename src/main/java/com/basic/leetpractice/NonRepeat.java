@@ -12,8 +12,8 @@ public class NonRepeat {
 
         for(char c:chars){
             if(set.add(c)){
-                sb.append(c);break;
-            }
+            sb.append(c);
+            break;
         }
         System.out.println(sb.toString());
         System.out.println(sb.substring(0,1) );
